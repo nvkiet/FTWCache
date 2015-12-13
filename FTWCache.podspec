@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "FTWCache"
-  s.version      = "0.1.1"
+  s.version      = "0.1.2"
   s.summary      = "Dead simple caching for Mac and iOS."
 
   s.homepage     = "https://github.com/nvkiet/FTWCache"

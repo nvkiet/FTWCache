@@ -6,6 +6,6 @@ class func setObject(data: NSData, forKey key:String)
 ```
  
  
-### License
+License
 --
 This project is released under the MIT license. See LICENSE.md

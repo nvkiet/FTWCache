@@ -7,24 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		926DC5451C1CA06400FDFF1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926DC5441C1CA06400FDFF1A /* AppDelegate.swift */; };
-		926DC5471C1CA06400FDFF1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926DC5461C1CA06400FDFF1A /* ViewController.swift */; };
-		926DC54A1C1CA06400FDFF1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 926DC5481C1CA06400FDFF1A /* Main.storyboard */; };
-		926DC54C1C1CA06400FDFF1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 926DC54B1C1CA06400FDFF1A /* Assets.xcassets */; };
-		926DC54F1C1CA06400FDFF1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 926DC54D1C1CA06400FDFF1A /* LaunchScreen.storyboard */; };
-		926DC5571C1CA07C00FDFF1A /* FTWCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926DC5561C1CA07C00FDFF1A /* FTWCache.swift */; };
+		926F14B21C1D559F008FB079 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926F14A91C1D559F008FB079 /* AppDelegate.swift */; };
+		926F14B31C1D559F008FB079 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 926F14AA1C1D559F008FB079 /* Assets.xcassets */; };
+		926F14B41C1D559F008FB079 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 926F14AB1C1D559F008FB079 /* LaunchScreen.storyboard */; };
+		926F14B51C1D559F008FB079 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 926F14AD1C1D559F008FB079 /* Main.storyboard */; };
+		926F14B61C1D559F008FB079 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 926F14B01C1D559F008FB079 /* Info.plist */; };
+		926F14B71C1D559F008FB079 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926F14B11C1D559F008FB079 /* ViewController.swift */; };
+		926F14BD1C1D576C008FB079 /* FTWCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926F14BC1C1D576C008FB079 /* FTWCache.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		926DC5411C1CA06400FDFF1A /* FTWCache.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FTWCache.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		926DC5441C1CA06400FDFF1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		926DC5461C1CA06400FDFF1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		926DC5491C1CA06400FDFF1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		926DC54B1C1CA06400FDFF1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		926DC54E1C1CA06400FDFF1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		926DC5501C1CA06400FDFF1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		926DC5561C1CA07C00FDFF1A /* FTWCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTWCache.swift; sourceTree = "<group>"; };
-		926DC5581C1D2D1200FDFF1A /* FTWCache-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FTWCache-Bridging-Header.h"; sourceTree = "<group>"; };
+		926F14A91C1D559F008FB079 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		926F14AA1C1D559F008FB079 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		926F14AC1C1D559F008FB079 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		926F14AE1C1D559F008FB079 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		926F14AF1C1D559F008FB079 /* FTWCache-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FTWCache-Bridging-Header.h"; sourceTree = "<group>"; };
+		926F14B01C1D559F008FB079 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		926F14B11C1D559F008FB079 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		926F14BC1C1D576C008FB079 /* FTWCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTWCache.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +42,8 @@
 		926DC5381C1CA06400FDFF1A = {
 			isa = PBXGroup;
 			children = (
-				926DC5431C1CA06400FDFF1A /* FTWCache */,
+				926F14BB1C1D576C008FB079 /* FTWCache */,
+				926F14A81C1D559F008FB079 /* FTWCacheDemo */,
 				926DC5421C1CA06400FDFF1A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,17 +56,24 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		926DC5431C1CA06400FDFF1A /* FTWCache */ = {
+		926F14A81C1D559F008FB079 /* FTWCacheDemo */ = {
 			isa = PBXGroup;
 			children = (
-				926DC5441C1CA06400FDFF1A /* AppDelegate.swift */,
-				926DC5461C1CA06400FDFF1A /* ViewController.swift */,
-				926DC5561C1CA07C00FDFF1A /* FTWCache.swift */,
-				926DC5481C1CA06400FDFF1A /* Main.storyboard */,
-				926DC54B1C1CA06400FDFF1A /* Assets.xcassets */,
-				926DC54D1C1CA06400FDFF1A /* LaunchScreen.storyboard */,
-				926DC5501C1CA06400FDFF1A /* Info.plist */,
-				926DC5581C1D2D1200FDFF1A /* FTWCache-Bridging-Header.h */,
+				926F14A91C1D559F008FB079 /* AppDelegate.swift */,
+				926F14AA1C1D559F008FB079 /* Assets.xcassets */,
+				926F14AB1C1D559F008FB079 /* LaunchScreen.storyboard */,
+				926F14AD1C1D559F008FB079 /* Main.storyboard */,
+				926F14AF1C1D559F008FB079 /* FTWCache-Bridging-Header.h */,
+				926F14B01C1D559F008FB079 /* Info.plist */,
+				926F14B11C1D559F008FB079 /* ViewController.swift */,
+			);
+			path = FTWCacheDemo;
+			sourceTree = "<group>";
+		};
+		926F14BB1C1D576C008FB079 /* FTWCache */ = {
+			isa = PBXGroup;
+			children = (
+				926F14BC1C1D576C008FB079 /* FTWCache.swift */,
 			);
 			path = FTWCache;
 			sourceTree = "<group>";
@@ -127,9 +136,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				926DC54F1C1CA06400FDFF1A /* LaunchScreen.storyboard in Resources */,
-				926DC54C1C1CA06400FDFF1A /* Assets.xcassets in Resources */,
-				926DC54A1C1CA06400FDFF1A /* Main.storyboard in Resources */,
+				926F14B61C1D559F008FB079 /* Info.plist in Resources */,
+				926F14B51C1D559F008FB079 /* Main.storyboard in Resources */,
+				926F14B31C1D559F008FB079 /* Assets.xcassets in Resources */,
+				926F14B41C1D559F008FB079 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,29 +150,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				926DC5471C1CA06400FDFF1A /* ViewController.swift in Sources */,
-				926DC5571C1CA07C00FDFF1A /* FTWCache.swift in Sources */,
-				926DC5451C1CA06400FDFF1A /* AppDelegate.swift in Sources */,
+				926F14B71C1D559F008FB079 /* ViewController.swift in Sources */,
+				926F14BD1C1D576C008FB079 /* FTWCache.swift in Sources */,
+				926F14B21C1D559F008FB079 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		926DC5481C1CA06400FDFF1A /* Main.storyboard */ = {
+		926F14AB1C1D559F008FB079 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				926DC5491C1CA06400FDFF1A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		926DC54D1C1CA06400FDFF1A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				926DC54E1C1CA06400FDFF1A /* Base */,
+				926F14AC1C1D559F008FB079 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		926F14AD1C1D559F008FB079 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				926F14AE1C1D559F008FB079 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -253,12 +263,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = FTWCache/Info.plist;
+				INFOPLIST_FILE = FTWCacheDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kietnguyen.FTWCache;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "FTWCache/FTWCache-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "FTWCacheDemo/FTWCache-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -266,12 +276,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = FTWCache/Info.plist;
+				INFOPLIST_FILE = FTWCacheDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kietnguyen.FTWCache;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "FTWCache/FTWCache-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "FTWCacheDemo/FTWCache-Bridging-Header.h";
 			};
 			name = Release;
 		};

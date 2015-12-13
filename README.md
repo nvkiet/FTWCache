@@ -1,6 +1,6 @@
 # FTWCache
 
-FTWCache is a small utility libray to support caching data locally so you can pull them when you need them. The [original repo](https://github.com/FTW/FTWCache) is written in objective-c by [@khanlou](https://twitter.com/khanlou). And I want to port the code to [swift 2](https://developer.apple.com/swift/) and support [CocoaPods](http://cocoapods.org).
+FTWCache is a small utility libray to support caching data locally so we can pull them when we need them. The [original repo](https://github.com/FTW/FTWCache) is written in objective-c by [@khanlou](https://twitter.com/khanlou). So I want to port the code to [swift 2](https://developer.apple.com/swift/) and support [CocoaPods](http://cocoapods.org).
 
 FTWCache has two class methods for setting and retrieving data:
 

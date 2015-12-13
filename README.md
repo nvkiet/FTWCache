@@ -16,6 +16,10 @@ and you can reset the cache with
 class func resetCache()
 ```
 
+It stores the files in your Caches folder in its own folder. The default expiration time is 7 days, but you can modify that if you need. 
+
+It takes NSData objects, so anything you can format in that way (audio files, images, simple text) can be store in the cache. Note also that the system will also periodically flush the Caches folders of apps if it finds it needs more space.
+
 ## Installation
 
 FTWCache is available through [CocoaPods](http://cocoapods.org). To install

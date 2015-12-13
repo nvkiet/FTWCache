@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FTWCache: NSObject {
+public class FTWCache: NSObject {
     static let cacheTime: Double = 604800
     
     class func resetCache() {

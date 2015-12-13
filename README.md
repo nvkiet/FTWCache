@@ -4,6 +4,12 @@ FTWCache has two class methods for setting and retrieving data:
 ```swift
 class func setObject(data: NSData, forKey key:String)
 ```
+
+and
+
+```swift
+ class func objectForKey(key: String) -> NSData?
+```
  
  
 License

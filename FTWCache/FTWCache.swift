@@ -9,9 +9,9 @@
 import UIKit
 
 public class FTWCache: NSObject {
-    static let cacheTime: Double = 604800
+    public static let cacheTime: Double = 604800
     
-    class func resetCache() {
+    public class func resetCache() {
         do {
             try NSFileManager.defaultManager().removeItemAtPath(FTWCache.cacheDirectory())
         } catch {
@@ -25,7 +25,7 @@ public class FTWCache: NSObject {
         return cacheDirectory
     }
     
-    class func objectForKey(key: String) -> NSData? {
+    public class func objectForKey(key: String) -> NSData? {
         let fileManager = NSFileManager.defaultManager()
         let fileName = (FTWCache.cacheDirectory() as NSString).stringByAppendingPathComponent(key)
         
@@ -46,7 +46,7 @@ public class FTWCache: NSObject {
         return data
     }
     
-    class func setObject(data: NSData, forKey key:String) {
+    public class func setObject(data: NSData, forKey key:String) {
         let fileManager = NSFileManager.defaultManager()
         let fileName = (FTWCache.cacheDirectory() as NSString).stringByAppendingPathComponent(key)
         

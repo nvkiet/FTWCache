@@ -60,12 +60,12 @@
 			isa = PBXGroup;
 			children = (
 				926F14A91C1D559F008FB079 /* AppDelegate.swift */,
+				926F14B11C1D559F008FB079 /* ViewController.swift */,
+				926F14AF1C1D559F008FB079 /* FTWCache-Bridging-Header.h */,
 				926F14AA1C1D559F008FB079 /* Assets.xcassets */,
 				926F14AB1C1D559F008FB079 /* LaunchScreen.storyboard */,
 				926F14AD1C1D559F008FB079 /* Main.storyboard */,
-				926F14AF1C1D559F008FB079 /* FTWCache-Bridging-Header.h */,
 				926F14B01C1D559F008FB079 /* Info.plist */,
-				926F14B11C1D559F008FB079 /* ViewController.swift */,
 			);
 			path = FTWCacheDemo;
 			sourceTree = "<group>";

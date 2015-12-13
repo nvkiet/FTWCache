@@ -15,7 +15,11 @@ and you can reset the cache with
 ```swift
 class func resetCache()
 ```
- 
-License
---
-This project is released under the MIT license. See LICENSE.md
+
+## Author
+
+Kiet Nguyen, nguyenvankiet.teaching@gmail.com
+
+## License
+
+FTWCache is released under the MIT license. See LICENSE.md

@@ -16,6 +16,15 @@ and you can reset the cache with
 class func resetCache()
 ```
 
+## Installation
+
+FTWCache is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod "FTWCache"
+```
+
 ## Author
 
 Kiet Nguyen, nguyenvankiet.teaching@gmail.com

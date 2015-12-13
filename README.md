@@ -1,5 +1,5 @@
 # FTWCache
-FTWCache is a small utility libray to support caching data in the disk so you can pull them when you need. It is written in objective-c by [@khanlou](https://twitter.com/khanlou).  It has two class methods for setting and retrieving data:
+FTWCache is a small utility libray to support caching data in the disk so you can pull them when you need. The [original repo](https://github.com/FTW/FTWCache) is written in objective-c by [@khanlou](https://twitter.com/khanlou).  It has two class methods for setting and retrieving data:
 
 ```swift
 class func setObject(data: NSData, forKey key:String)

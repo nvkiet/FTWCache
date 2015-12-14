@@ -1,5 +1,9 @@
 # FTWCache
 
+[![Swift 2.1](https://img.shields.io/badge/Swift-2.1-orange.svg?style=flat)](https://developer.apple.com/swift/)
+[![Platforms iOS](https://img.shields.io/badge/Platforms-iOS-lightgray.svg?style=flat)](https://developer.apple.com/swift/)
+[![License MIT](https://img.shields.io/badge/License-MIT-lightgrey.svg?style=flat)](https://opensource.org/licenses/MIT)
+
 FTWCache is a small utility library to support caching data locally so we can pull them when we need them. The [original repo](https://github.com/FTW/FTWCache) is written in objective-c by [@khanlou](https://twitter.com/khanlou). So I want to port the code to [swift 2](https://developer.apple.com/swift/) and support to install the library via [CocoaPods](http://cocoapods.org).
 
 ## Usage

@@ -40,7 +40,7 @@ pod "FTWCache"
 
 ## Author
 
-* Kiet Nguyen - iOS blogger at http://vankiet.com/
+Kiet Nguyen - iOS blogger at http://vankiet.com/
 
 ## License
 
